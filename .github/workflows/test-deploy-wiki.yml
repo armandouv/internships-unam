@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - main
+      - staging
     paths:
       - wiki/**
   pull_request:
     branches:
       - main
+      - staging
     paths:
       - wiki/**
 
