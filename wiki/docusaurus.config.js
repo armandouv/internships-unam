@@ -9,7 +9,7 @@ const config = {
   title: 'Internships UNAM by CPCFI',
   tagline: '¿Cómo obtener una pasantía en FAANG?',
   url: 'https://armandouv.github.io/',
-  baseUrl: '/',
+  baseUrl: '/internships-unam/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
