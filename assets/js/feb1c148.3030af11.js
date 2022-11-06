@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[2931],{8385:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/internships-unam/blog/tags/facebook","allTagsPath":"/internships-unam/blog/tags","count":1}')}}]);
