@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Internships UNAM by CPCFI',
   tagline: '¿Cómo obtener una pasantía en FAANG?',
-  url: 'https://armandouv.github.io/internships-unam/',
+  url: 'https://armandouv.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
