@@ -16,6 +16,9 @@ jobs:
   test-deploy-wiki:
     name: Test Wiki deployment
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: wiki
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
@@ -24,8 +27,6 @@ jobs:
           cache: npm
           cache-dependency-path: 'wiki/package-lock.json'
 
-      - name: Change working directory
-        run: cd ./wiki
       - name: Install dependencies
         run: npm ci
       - name: Test build website
