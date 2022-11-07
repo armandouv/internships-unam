@@ -47,6 +47,18 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'cursos',
+        path: 'cursos',
+        routeBasePath: 'cursos',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -64,7 +76,7 @@ const config = {
             label: 'Wiki',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/cursos', label: 'Cursos', position: 'left'}
+          {to: '/cursos/intro', label: 'Cursos', position: 'left'}
         ],
       },
       footer: {
@@ -79,7 +91,7 @@ const config = {
               },
               {
                 label: 'Cursos',
-                to: '/cursos',
+                to: '/cursos/intro',
               },
               {
                 label: 'Blog',
